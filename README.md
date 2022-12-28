@@ -17,7 +17,7 @@ It is possible to track every crypto pair you wish, by adding its symbol in the 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-###To host this project on your machine.
+### To host this project on your machine.
 
 First, clone this repo.
 
