@@ -19,14 +19,14 @@ To host this project on your machine, you first need to clone this repo.
 
 Then, you have to execute the createtable.sh script to create the database.
 
-'''
+```
 $ source createtable.sh
-'''
+```
 
 Then, use a cronjob to make it run automaticly every hour.
 
-'''
+```
 crontab -e
 
 58 * * * * <Path to your script.sh>
-'''
+```
