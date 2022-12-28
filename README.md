@@ -15,7 +15,11 @@ The viewtable.sh script allows the user to visualize the whole database, with al
 
 It is possible to track every crypto pair you wish, by adding its symbol in the pair_tracked array in the script.sh file.
 
-To host this project on your machine, you first need to clone this repo.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+###To host this project on your machine.
+
+First, clone this repo.
 
 Then, you have to execute the createtable.sh script to create the database.
 
@@ -26,7 +30,9 @@ $ source createtable.sh
 Then, use a cronjob to make it run automaticly every hour.
 
 ```
-crontab -e
+$ crontab -e (opens crontab file)
 
-58 * * * * <Path to your script.sh>
+58 * * * * <Path to your script.sh> (the command to make the script run every hour)
 ```
+
+By Hugo SCHNEEGANS.
